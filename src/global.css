@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scroll-snap-type: y mandatory;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    overflow-x: hidden;
+
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+a{
+    display: inline-block;
+}
+    
+    
+    
